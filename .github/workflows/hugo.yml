@@ -31,11 +31,16 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: 'latest'
+          hugo-version: '0.161.0'
           extended: true
 
       - name: Build
         run: hugo --minify --baseURL "https://jamila123-ops.github.io/mon-portfolio/"
+
+      - name: Copy static files
+        run: |
+          cp -r static/images public/images
+          cp static/cv.pdf public/cv.pdf
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
