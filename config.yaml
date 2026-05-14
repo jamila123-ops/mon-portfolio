@@ -17,7 +17,7 @@ params:
     title: "Jamila El Khattabi"
     subtitle: "Étudiante Ingénieure en Systèmes Embarqués & Services Numériques"
     content: "Passionnée par les technologies innovantes, l'IoT et le développement de solutions intelligentes."
-    image: /images/photo.jpg
+    image: images/photo.jpg
     button:
       enable: true
       name: "Mon CV"
@@ -34,7 +34,7 @@ params:
   about:
     enable: true
     title: "À propos"
-    image: "/images/photo.jpg"
+    image: "images/photo.jpg"
     content: |
       Je suis étudiante ingénieure en Systèmes Embarqués et Services Numériques
       à l'INPT de Rabat, passionnée par les technologies innovantes, l'IoT et
