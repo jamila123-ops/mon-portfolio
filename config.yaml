@@ -21,7 +21,7 @@ params:
     button:
       enable: true
       name: "Mon CV"
-      url: "/cv.pdf"
+      url: "cv.pdf"
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
