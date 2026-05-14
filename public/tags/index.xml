@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Jamila El Khattabi</title>
-    <link>https://mon-portfolio.com/tags/</link>
+    <link>https://jamila123-ops.github.io/mon-portfolio/tags/</link>
     <description>Recent content in Tags on Jamila El Khattabi</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <atom:link href="https://mon-portfolio.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jamila123-ops.github.io/mon-portfolio/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
