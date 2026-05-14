@@ -1,0 +1,140 @@
+baseURL: "https://mon-portfolio.com"
+title: "Jamila El Khattabi"
+theme: "hugo-profile"
+
+params:
+  title: "Jamila El Khattabi"
+  description: "Portfolio - Systèmes Embarqués & Services Numériques"
+
+  navbar:
+    disableSearch: true
+  customCSS:
+    - css/custom.css
+
+  hero:
+    enable: true
+    intro: "Bonjour, je suis"
+    title: "Jamila El Khattabi"
+    subtitle: "Étudiante Ingénieure en Systèmes Embarqués & Services Numériques"
+    content: "Passionnée par les technologies innovantes, l'IoT et le développement de solutions intelligentes."
+    image: /images/photo.jpg
+    button:
+      enable: true
+      name: "Mon CV"
+      url: "/cv.pdf"
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fab fa-github
+          url: https://github.com/jamila123-ops
+        - icon: fab fa-linkedin
+          url: https://www.linkedin.com/in/jamila-el-khattabi-026871282
+        - icon: fas fa-envelope
+          url: mailto:elkhattabijamila12582@gmail.com
+
+  about:
+    enable: true
+    title: "À propos"
+    image: "/images/photo.jpg"
+    content: |
+      Je suis étudiante ingénieure en Systèmes Embarqués et Services Numériques
+      à l'INPT de Rabat, passionnée par les technologies innovantes, l'IoT et
+      le développement de solutions intelligentes.
+    skills:
+      enable: true
+      title: "Mes compétences techniques :"
+      items:
+        - "C / Python"
+        - "Arduino / ESP32"
+        - "CAN / I2C / SPI"
+        - "IoT & Systèmes Embarqués"
+
+  education:
+    enable: true
+    title: "Formation"
+    index: false
+    items:
+      - title: "Étudiante Ingénieure - Systèmes Embarqués & Services Numériques"
+        school:
+          name: "Institut National des Postes et Télécommunications (INPT) - Rabat"
+          url: "https://www.inpt.ac.ma"
+        date: "2025 - 2028"
+        content: "Formation d'ingénieure spécialisée en systèmes embarqués et services numériques."
+      - title: "Classe Préparatoire aux Grandes Écoles d'Ingénieurs"
+        school:
+          name: "Lycée Moulay Abdellah - Safi"
+        date: "2023 - 2025"
+        content: "Préparation aux concours des grandes écoles d'ingénieurs."
+
+  projects:
+    enable: true
+    title: "Projets"
+    items:
+      - title: "Harvest Moon - Smart Agriculture Monitoring Platform"
+        content: "A full-stack IoT web application for real-time agricultural monitoring. Sensors collect environmental data (temperature, humidity, soil moisture) streamed to a Python backend, stored in PostgreSQL, and visualized on a web frontend."
+        image: /images/projet1.jpg
+        badges:
+          - "IoT"
+          - "Python"
+          - "PostgreSQL"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/jamila123-ops/harvest-moon
+
+      - title: "Modulation et Démodulation AM"
+        content: "Réalisation d'un système de modulation et démodulation AM permettant la transmission et la récupération d'un signal audio à travers une porteuse haute fréquence. Ce projet m'a permis de comprendre les principes de base des communications analogiques."
+        image: /images/projet2.jpg
+        badges:
+          - "Signal"
+          - "Électronique"
+          - "Analogique"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/jamila123-ops/modulation-am
+
+  skills:
+    enable: true
+    title: "Compétences Techniques"
+    items:
+      - title: "Langages de programmation"
+        icon: "fa fa-code"
+        description: "C, Python"
+      - title: "Matériel embarqué"
+        icon: "fa fa-microchip"
+        description: "Arduino, ESP32"
+      - title: "Protocoles de communication"
+        icon: "fa fa-network-wired"
+        description: "CAN, I2C, SPI"
+
+  achievements:
+    enable: true
+    title: "Soft Skills"
+    items:
+      - title: "Travail en équipe"
+        content: "Capacité à collaborer efficacement au sein d'une équipe."
+        icon: fa-users
+      - title: "Adaptabilité"
+        content: "Capacité à m'adapter rapidement à de nouveaux environnements."
+        icon: fa-sync
+      - title: "Organisation"
+        content: "Gestion efficace du temps et des priorités."
+        icon: fa-tasks
+      - title: "Curiosité"
+        content: "Veille constante sur les nouvelles technologies."
+        icon: fa-lightbulb
+
+  contact:
+    enable: true
+    title: "Contact"
+    content: "N'hésitez pas à me contacter pour toute collaboration ou opportunité."
+    email: "elkhattabijamila12582@gmail.com"
+    btnName: "Envoyer un email"
+
+  footer:
+    recentPosts:
+      enable: false
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
